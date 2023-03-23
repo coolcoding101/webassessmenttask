@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.leftside {
+    flex: 25%;
+    flex-direction: row;
+    padding: 3px;
+    background-color: orange;
+    text-align: center;
+}
+
+.rightside {
+    flex-basis: 25%;
+    flex-direction: row;
+    padding: 3px;
+    background-color: blue;
+    text-align: center;
+}
+
+.middleside {
+    flex-basis: 50%;
+    flex-direction: row;
+    padding: 3px;
+    background-color: green;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 2px 20px;
+}
+
+li {
+    display: inline;
+    padding: 2px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 25;
+    font-family: Arial;
+}
+
+.imgleft {
+    width: 80%;
+}
+
+.imgright {
+    width: 80%;
+}
