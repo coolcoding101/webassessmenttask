@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Roller coaster manufacturers</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -26,11 +27,16 @@
             </div>
             <div class="middleside">
                 <h1>An introduction to Roller Coaster Manufacturers</h1>
+                <p>Description</p>
             </div>
             <div class="rightside">
                 <img src="generic-image-placeholder.webp" alt="img1" class="imgright">
                 <img src="generic-image-placeholder.webp" alt="img1" class="imgright">
-                <img src="generic-image-placeholder.webp" alt="img1" class="imgright">
+                <img src="generic-image-placeholder.webp" class="imgright" onclick="openModal()">
+                    <div id="myModal" class="homemodal">
+                        <span class="closemodal" onclick="closeModal()">&times;</span>
+                        <p class="homemodalref">Placeholder image</p>
+                    </div>
             </div>
         </div>
     </main>

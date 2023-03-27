@@ -31,6 +31,7 @@ html {
     padding: 3px;
     background-color: green;
     text-align: center;
+    font-size: 25px;
 }
 
 nav {
@@ -44,14 +45,21 @@ ul {
 }
 
 li {
-    display: inline;
-    padding: 2px;
+    display: inline-block;
+    padding: 15px;
+    background-color: gray;
 }
 
 li a {
     text-decoration: none;
-    font-size: 25;
+    font-size: 22px;
     font-family: Arial;
+    color: blue;
+    padding: 10px;
+}
+
+li a:hover {
+    font-weight: 700;
 }
 
 .imgleft {
@@ -61,3 +69,38 @@ li a {
 .imgright {
     width: 80%;
 }
+
+.homemodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.homemodalref {
+    background-color: white;
+}
+
+.homemodal .imgright {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.closemodal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
